@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jedi Academy</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
+  <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-jedi"></i> Jedi
+      </span>Academy
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        Teaching Jedi For Many Millenia
+      </h1>
+      <p class="lead">
+        The galaxy needs force sensitive citizens to help maintain justice and order for the greater good. Do you have what it takes?
+      </p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+  <!-- What We Provide -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What </span>We Provide</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-book-reader"></i>
+          <div>
+            <h3>Guidance</h3>
+            <p>Mastering the force is a difficult task that requires guidance from an experienced Jedi Master</p>
+          </div>
+          </div>
+        <div class="item">
+          <i class="fas fa-home"></i>
+          <div>
+            <h3>Structure</h3>
+            <p>Every aspect of your day will be strategically planned out for you. We will provide you with all of the classroom and practial enducation that you wil need to become a successful Jedi.</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-magic"></i>
+          <div>
+            <h3>Lightsabers</h3>
+            <p>Yup, that's right. You'll be the proud owner of one of the coolest weapons in the Galaxy! Pretty cool, huh?</p>
+          </div>
+          </div>
+        </div>
+  </section>
+<!-- Who We Are -->
+<section id="who">
+  <div class="who-img"></div>
+  <div class="who-text bg-dark p-2">
+    <h2 class="m-heading"><span class="text-primary">Who </span>We Are</h2>
+    <p>As jedi we are dedicated to mastering the force through practice and patience. If you are to become one with the force you must remain humble and vigilant at all times.</p>
+    <h3>Our Jedi Masters</h3>
+    <ul class="list">
+      <li>Mace Windu</li>
+      <li>Qui Gon Jinn</li>
+      <li>Yoda</li>
+    </ul>
+  </div>
+</section>
+<!-- Padawans -->
+<section id="clients" class="py-1">
+  <div class="container">
+    <h2 class="m-heading text-center">
+      <span class="text-primary">Our </span>
+      Padawans
+    </h2>
+    <div class="items py-1">
+      <div><img src="./img/obi-wan-300-180.jpg" alt="Obi Wan"></div>
+      <div><img src="./img/luke-300-180.jpg" alt="Luke Skywalker"></div>
+      <div><img src="./img/rey.jpg" alt="Rey"></div>
+    </div>
+  </div>
+</section>
+<!-- Contact -->
+<section id="contact">
+  <div class="contact-form bg-primary p-2">
+    <h2 class="m-heading">Contact Us</h2>
+    <p>Please use the form below to contact us</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Enter Message"></textarea> 
+      </div>
+      <div class="button-container">
+      <input type="submit" value="send" class="btn-dark">
+      </div>
+    </form>
+  </div>
+</section>
+<!-- Footer -->
+<footer id="main-footer" class= "bg-dark text-center py-1">
+  <p>Copyright 2020, May the force be with you.</p>
+</footer>
+<!-- Jquery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <!-- Javascript File -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
